@@ -9,7 +9,11 @@ from flask_jwt_extended import (
 
 from real_price.models import User
 from real_price.extensions import pwd_context, jwt, apispec
-from real_price.auth.helpers import revoke_token, is_token_revoked, add_token_to_database
+from real_price.auth.helpers import (
+    revoke_token,
+    is_token_revoked,
+    add_token_to_database,
+)
 
 
 blueprint = Blueprint("auth", __name__, url_prefix="/auth")
