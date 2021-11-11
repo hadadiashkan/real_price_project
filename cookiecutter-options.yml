@@ -1,0 +1,9 @@
+default_context:
+    project_name: "real_price_project"
+    app_name: "real_price"
+    python_version: "3.8"
+    admin_user_username: "admin"
+    admin_user_email: "hadadi.ashkan@gmail.com"
+    admin_user_password: "admin"
+    use_celery: "yes"
+    wsgi_server: "gunicorn"
